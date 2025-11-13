@@ -1,0 +1,13 @@
+{
+  "name": "vele",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client:install": "cd client && npm install",
+    "server:install": "cd server && npm install",
+    "client:build": "cd client && npm run build",
+    "server:start": "cd server && npm start",
+    "start": "npm run client:build && npm run server:start"
+  }
+}
+
